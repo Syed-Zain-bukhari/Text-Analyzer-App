@@ -1,11 +1,14 @@
-import React from 'react'
-import { Navbar, Container, Nav } from 'react-bootstrap';
-
+import React from "react";
+import { Navbar, Container, Nav, Button } from "react-bootstrap";
 
 function Navbars() {
+  const myStyle = {
+    color: "white",
+    backgroundColor: "black",
+  };
   return (
     <div>
-       <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#home">Text Count</Navbar.Brand>
           <Nav className="me-auto">
@@ -15,7 +18,7 @@ function Navbars() {
         </Container>
       </Navbar>
     </div>
-  )
+  );
 }
 
-export default Navbars
+export default Navbars;
